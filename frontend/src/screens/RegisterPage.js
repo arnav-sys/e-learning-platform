@@ -8,7 +8,7 @@ function RegisterPage() {
     <div>
         <Navbar/>
         <div className='main'>
-            <h1>Register</h1>
+            <h1 className='r'>Register</h1>
             <div className='content'>
                 <form id="signform" className='form'>
                     <input type="text" placeholder='enter name'></input>

@@ -8,7 +8,7 @@ function Signin() {
     <div>
         <Navbar/>
         <div className='main'>
-            <h1>Signin</h1>
+            <h1 className='r'>Signin</h1>
             <div className='content'>
                 <form id="signform" className='form '>
                     <input type="text" placeholder='enter email'></input>

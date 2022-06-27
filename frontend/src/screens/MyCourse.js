@@ -1,21 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import "./Main.css"
 
-function Main() {
-  let count = 0
-  let style = {
-    width:"25rem"
-  }
-
-  let bstyle = {
-    marginTop:"2%"
-  }
+function MyCourse() {
   return (
     <div className="m">
         <Navbar/>
-        <h1 className='c'>Courses <span className='sp'>by our top teachers</span></h1>
+        <h1 className='c'><span className='sp'>Your Courses</span></h1>
         <div className='row'>
           <div className='column'>
             <div className='card'>
@@ -59,4 +51,4 @@ function Main() {
   )
 }
 
-export default Main
+export default MyCourse

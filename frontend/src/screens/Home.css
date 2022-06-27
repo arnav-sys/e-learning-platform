@@ -10,6 +10,9 @@
 
 .txt-content{
     margin-left: 3%;
+    text-align: left;
+    padding: 0;
+    width: 50%;
 }
 
 .img-content > img{
@@ -30,16 +33,11 @@
     font-weight: bold;
     font-size: 26px;
     padding: 15px;
+    margin-left: 9%;
+    margin-top: 5%;
 }
 
-.footer{
-    color: white;
-    background-color: black;
-    display: flex;
-    position: fixed; 
-    bottom:0%;
-    width:100%; 
-}
+
 
 @media only screen and (max-width: 850px) {
     .main-content{
@@ -49,6 +47,8 @@
     .txt-content{
         justify-content: center;
         text-align: center;
+        width: 100%;
+        margin: 0;
     }
 
     .img-content > img{
